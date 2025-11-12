@@ -46,7 +46,4 @@ hugo
 
 MIT License
 
-## 联系方式
 
-- 网站: [your-website-url]
-- 邮箱: [your-email]
