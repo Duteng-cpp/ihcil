@@ -46,9 +46,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Download Hugo Modules
-        run: |
-          hugo mod tidy
-          hugo mod download
+        run: hugo mod tidy
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
